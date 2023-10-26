@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pregunta1.css">
+</head>
+
+<body>
+    <main>
+        <img src="../img/Institucionales/escudo_fmvz.png" alt="FMVZ">
+        <img src="../img/Institucionales/logosimulacion.png" alt="Simulacion">
+    <div class="Respuestas ">
+        <div class="RespuestaA" id="RespuestaA">
+            <h1>Opcion A</h1>
+            <br>
+            <h2>Respuesta Correcta</h2>
+            <br>
+            <ol>
+                <li>Las mucosas ictéricas sí son un problema primario que puede tener diagnósticos diferenciales
+                    específicos.</li>
+                <li>El sobrepeso es un problema primario y en sí una enfermedad, igual que la obesidad que presentó en
+                    algún momento este paciente. Por lo tanto, es correcto marcarlo como problema primario en la lista
+                    maestra, pero no amerita que se consideren diagnósticos diferenciales, ya que a diferencia del
+                    perro, generalmente no hay enfermedades que se manifiesten con este problema, como el
+                    hipotiroidismo. Lo que existen en el gato son factores predisponentes, los cuales no representan un
+                    diagnóstico (sobreingesta calórica, falta de ejercicio, etc.)</li>
+            </ol>
+            <br>
+            <p>Bien, puedes continuar, considerando únicamente la ictericia para el desarrollo del caso. Como se
+                mencionó, el sobrepeso es ya una enfermedad y no tiene diferenciales.</p>
+                <a href="">Siguiente</a> <!--se declara el enlace a la proxima pregunta -->
+        </div>
+        <div class="RespuestaB" id="RespuestaB">
+            <h1>Opcion B</h1>
+            <br>
+            <h2>Respuesta Incorrecta</h2>
+            <br>
+            <ol>
+                <li>Existen múltiples causas de anorexia, por lo que no es un problema primario. Además de que no
+                    consideraste el problema de mucosas ictéricas que es más específico.</li>
+                <li>El vómito si puede ser un problema primario, pero te puedes perder con tantas posibilidades
+                    diagnósticas. Adicional a esto, el vómito de este paciente sólo era provocado por la alimentación
+                    forzada. Además, si el paciente tuviera un parásito sanguíneo causando hemólisis, nunca llegarías a
+                    ese diagnóstico, ya que no consideraste la ictericia como problema maestro.</li>
+            </ol>
+            <br>
+            <p>Lamentablemente no puedes continuar. Te recomendamos estudiar las bases de la metodología diagnóstica
+                para poder resolver casos clínicos, vuelve a realizarlo posteriormente.</p>
+        </div>
+        <div class="RespuestaC" id="RespuestaC">
+            <h1>Opcion C</h1>
+            <br>
+            <h2>RESPUESTA PARCIALMENTE CORRECTA </h2>
+            <br>
+            <ol>
+                <li>El vómito sí puede ser un problema primario, pero en este caso te puedes perder con tantas
+                    posibilidades diagnósticas. Adicional a esto, el vómito de este paciente sólo era provocado por la
+                    alimentación forzad.</li>
+                <li>Las mucosas ictéricas sí son un problema primario
+
+                </li>
+            </ol>
+            <br>
+            <p>El sobrepeso es un problema primario y en sí una enfermedad, igual que la obesidad que presentó en algún
+                momento este paciente. Por lo tanto, se pudo haber considerado como problema primario en la lista
+                maestra, aunque no amerita que se consideren diagnósticos diferenciales, ya que a diferencia del perro,
+                generalmente no hay enfermedades que se manifiesten con este problema, como el hipotiroidismo. Lo que
+                existen en el gato son factores predisponentes, los cuales no representan un diagnóstico (sobreingesta
+                calórica, falta de ejercicio, etc.). Por esta razón, no constituye un error haberlo omitido.
+                Puedes continuar, pero el vómito y las mucosas ictéricas parecen estar íntimamente relacionados en este
+                caso, por lo que se puede simplificar a un solo problema maestro. Considera las mucosas ictéricas como
+                tu problema maestro.
+            </p>
+        </div>
+        <div class="RespuestaD" id="RespuestaD">
+            <h1>Opcion D</h1>
+            <br>
+            <h2>RESPUESTA Incorrecta </h2>
+            <br>
+            <ol>
+                <li>El 7% de deshidratación no es un problema primario, habría infinidad de posibilidades diagnósticas.
+                </li>
+                <li>La pérdida de peso no es un problema primario, también tiene múltiples causas potenciales</li>
+            </ol>
+            <br>
+            <p>Son problemas secundarios que se deberán asociar a otro dato o problema primario para poder explicar su
+                origen, además de que no consideraste el problema de las mucosas ictéricas que es más específico.
+                Lamentablemente no puedes continuar. Te recomendamos estudiar las bases de la metodología diagnóstica
+                para poder resolver casos clínicos, vuelve a realizarlo posteriormente.
+            </p>
+        </div>
+    </div>
+</main>
+<script>
+    // Obtiene el fragmento de la URL después del #
+    var fragment = window.location.hash.substr(1);
+
+    // Muestra la sección específica y oculta las demás
+    if (fragment) {
+        var seccion = document.getElementById(fragment);
+        if (seccion) {
+            seccion.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>
